@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Tahoma, sans-serif, sans-serif;
+}
+body {
+    min-height: 100vh;
+    background-image: url('porsche-2.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    padding: 20px;
+    background-color: #24242477;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 40px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a{
+    font-size: 24px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.content {
+background-color: #24242477;
+width: 100%;
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+text-align: center;
+color: #ffffffe0;
+}
+
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+
+.content p{
+    margin: 20px auto;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 40px;
+}
